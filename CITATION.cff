@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: If you use this in research or a publication, please cite it.
+title: bpm-key-finder
+abstract: "Find the BPM, musical key and Camelot code of audio files and whole DJ folders. Zero-dependency Node CLI and JS library; WAV natively, MP3/FLAC/M4A via ffmpeg."
+type: software
+authors:
+  - name: HablaMusic
+    website: https://hablamusic.com
+repository-code: https://github.com/hablamusic/bpm-key-finder
+license: MIT
+version: 0.1.0
+date-released: "2026-11-26"

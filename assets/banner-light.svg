@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="bpm-key-finder: BPM, key and Camelot code for every track in your crate">
+<rect width="1280" height="320" fill="#f8f9fa"/>
+<g font-family="Geist, Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+<text x="96" y="132" font-size="64" font-weight="600" letter-spacing="-1.5" fill="#212529">bpm-key-finder</text>
+<text x="96" y="186" font-size="28" fill="#495057">BPM, key and Camelot code for every track in your crate</text>
+<rect x="96" y="228" width="50" height="36" rx="18" fill="none" stroke="#dee2e6" stroke-width="2"/><text x="121" y="252" text-anchor="middle" font-size="17" fill="#495057">BPM</text><rect x="157.6" y="228" width="50" height="36" rx="18" fill="none" stroke="#dee2e6" stroke-width="2"/><text x="182" y="252" text-anchor="middle" font-size="17" fill="#495057">Key</text><rect x="219.2" y="228" width="114" height="36" rx="18" fill="none" stroke="#dee2e6" stroke-width="2"/><text x="276" y="252" text-anchor="middle" font-size="17" fill="#495057">Camelot 8A</text><rect x="345.2" y="228" width="123" height="36" rx="18" fill="none" stroke="#dee2e6" stroke-width="2"/><text x="407" y="252" text-anchor="middle" font-size="17" fill="#495057">Open Key 1m</text><rect x="480.4" y="228" width="114" height="36" rx="18" fill="none" stroke="#dee2e6" stroke-width="2"/><text x="537" y="252" text-anchor="middle" font-size="17" fill="#495057">CSV / JSON</text><rect x="606.4" y="228" width="77" height="36" rx="18" fill="none" stroke="#dee2e6" stroke-width="2"/><text x="645" y="252" text-anchor="middle" font-size="17" fill="#495057">0 deps</text>
+</g>
+<g transform="translate(1000 40) scale(0.94)"><path fill="#212529" d="M48 58a22 22 0 0 1 44 0v140a22 22 0 0 1-44 0zM164 58a22 22 0 0 1 44 0v140a22 22 0 0 1-44 0zM92 118h72v20H92z"/><path fill="#fb5607" d="M130 84h18a10 10 0 0 1 10 10v68a10 10 0 0 1-10 10h-18a10 10 0 0 1-10-10V94a10 10 0 0 1 10-10z"/></g>
+<text x="1120" y="296" text-anchor="middle" font-family="Geist, Inter, Helvetica, Arial, sans-serif" font-size="20" fill="#495057">hablamusic.com</text>
+</svg>

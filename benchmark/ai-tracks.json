@@ -1,0 +1,309 @@
+{
+  "_about": "19 tracks generated with Google Lyria on hablamusic.com from the prompts shown (30 s previews). Reference: essentia 2.1-beta6 KeyExtractor(profileType='edma') and RhythmExtractor2013(method='multifeature'). bpm-key-finder v0.1.0 defaults. Measured 2026-11-26.",
+  "tracks": [
+    {
+      "track": "https://hablamusic.com/examples/genres-bachata/1.mp3",
+      "genre": "bachata",
+      "prompt": "bachata, 132 BPM, C minor, lonely late night, bright lead guitar arpeggios, bongo, güira, syncopated bass, Spanish-language vocals, male vocal",
+      "prompt_bpm": 132,
+      "prompt_key": "C minor",
+      "essentia": {
+        "bpm": 129.8,
+        "key": "Bb minor"
+      },
+      "bpm_key_finder": {
+        "bpm": 130,
+        "key": "F minor",
+        "camelot": "4A"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-bachata/2.mp3",
+      "genre": "bachata urbana",
+      "prompt": "urban bachata, 124 BPM, A minor, romantic, smooth, requinto guitar, bongo, güira, soft R&B pads, modern mix, Spanish-language vocals, male and female duet",
+      "prompt_bpm": 124,
+      "prompt_key": "A minor",
+      "essentia": {
+        "bpm": 124.1,
+        "key": "A major"
+      },
+      "bpm_key_finder": {
+        "bpm": 124,
+        "key": "B minor",
+        "camelot": "10A"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-bachata/3.mp3",
+      "genre": "bachata",
+      "prompt": "sensual bachata, 118 BPM, D minor, intimate, slow, nylon requinto, light bongo, güira, warm bass, breathy vocal, Spanish-language vocals, female vocal",
+      "prompt_bpm": 118,
+      "prompt_key": "D minor",
+      "essentia": {
+        "bpm": 118.8,
+        "key": "B minor"
+      },
+      "bpm_key_finder": {
+        "bpm": 119,
+        "key": "B minor",
+        "camelot": "10A"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-corridos/1.mp3",
+      "genre": "corridos tumbados",
+      "prompt": "corridos tumbados, 140 BPM, A minor, confident, laid-back, 12-string requinto guitar, acoustic rhythm guitar, tololoche bass, light trap hi-hats, Spanish-language vocals, male vocal",
+      "prompt_bpm": 140,
+      "prompt_key": "A minor",
+      "essentia": {
+        "bpm": 139.8,
+        "key": "A major"
+      },
+      "bpm_key_finder": {
+        "bpm": 140.4,
+        "key": "A major",
+        "camelot": "11B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-corridos/2.mp3",
+      "genre": "corrido",
+      "prompt": "traditional corrido, 120 BPM, G major, storytelling, proud, accordion, bajo sexto, tuba, snare drum, waltz-like feel, Spanish-language vocals, male vocal",
+      "prompt_bpm": 120,
+      "prompt_key": "G major",
+      "essentia": {
+        "bpm": 122.4,
+        "key": "Eb major"
+      },
+      "bpm_key_finder": {
+        "bpm": 120,
+        "key": "Eb major",
+        "camelot": "5B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-corridos/3.mp3",
+      "genre": "corridos tumbados",
+      "prompt": "sad corridos tumbados, 132 BPM, E minor, melancholic, requinto guitar runs, tololoche, soft trumpets, intimate vocal, Spanish-language vocals, male vocal",
+      "prompt_bpm": 132,
+      "prompt_key": "E minor",
+      "essentia": {
+        "bpm": 132.2,
+        "key": "B major"
+      },
+      "bpm_key_finder": {
+        "bpm": 133,
+        "key": "F# major",
+        "camelot": "2B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-cumbia/1.mp3",
+      "genre": "cumbia",
+      "prompt": "colombian cumbia, 92 BPM, G major, festive, warm, accordion, guacharaca, tambora, gaita flute, bouncy bass, live band feel, Spanish-language vocals, male vocal",
+      "prompt_bpm": 92,
+      "prompt_key": "G major",
+      "essentia": {
+        "bpm": 91.9,
+        "key": "C minor"
+      },
+      "bpm_key_finder": {
+        "bpm": 92,
+        "key": "C minor",
+        "camelot": "5A"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-cumbia/2.mp3",
+      "genre": "cumbia sonidera",
+      "prompt": "cumbia sonidera, 96 BPM, A minor, nostalgic, danceable, keyboard organ lead, güiro, congas, echo effects, shouted dedications, Spanish-language vocals, male vocal",
+      "prompt_bpm": 96,
+      "prompt_key": "A minor",
+      "essentia": {
+        "bpm": 96.0,
+        "key": "C minor"
+      },
+      "bpm_key_finder": {
+        "bpm": 96,
+        "key": "C minor",
+        "camelot": "5A"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-cumbia/3.mp3",
+      "genre": "cumbia villera",
+      "prompt": "cumbia villera, 100 BPM, E minor, gritty, party, keytar synth lead, güira, timbales, straight bass, Spanish-language vocals, female vocal",
+      "prompt_bpm": 100,
+      "prompt_key": "E minor",
+      "essentia": {
+        "bpm": 100.0,
+        "key": "C major"
+      },
+      "bpm_key_finder": {
+        "bpm": 100,
+        "key": "A minor",
+        "camelot": "8A"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-dembow/1.mp3",
+      "genre": "dembow",
+      "prompt": "dominican dembow, 118 BPM, D minor, energetic, raw, fast dembow drums, dry snare, 808 bass slides, siren synth, chanted hook, street party energy, Spanish-language vocals, male vocal",
+      "prompt_bpm": 118,
+      "prompt_key": "D minor",
+      "essentia": {
+        "bpm": 117.9,
+        "key": "C minor"
+      },
+      "bpm_key_finder": {
+        "bpm": 118,
+        "key": "C major",
+        "camelot": "8B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-dembow/2.mp3",
+      "genre": "dembow",
+      "prompt": "dominican dembow, 122 BPM, F minor, playful, bouncy, dembow drums, rimshot, short vocal chops, bright lead synth, call-and-response chorus, Spanish-language vocals, female vocal",
+      "prompt_bpm": 122,
+      "prompt_key": "F minor",
+      "essentia": {
+        "bpm": 122.2,
+        "key": "G minor"
+      },
+      "bpm_key_finder": {
+        "bpm": 122,
+        "key": "G major",
+        "camelot": "9B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-dembow/3.mp3",
+      "genre": "dembow",
+      "prompt": "dembow, 115 BPM, A minor, hypnotic, minimal, dembow drums, deep 808, sparse piano stabs, crowd shouts, Spanish-language vocals, male vocal",
+      "prompt_bpm": 115,
+      "prompt_key": "A minor",
+      "essentia": {
+        "bpm": 114.9,
+        "key": "C# major"
+      },
+      "bpm_key_finder": {
+        "bpm": 92,
+        "key": "Bb minor",
+        "camelot": "3A"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-latin-trap/1.mp3",
+      "genre": "latin trap",
+      "prompt": "latin trap, 140 BPM, C minor, dark, confident, rolling hi-hats, deep 808, eerie piano melody, autotuned vocals, Spanish-language vocals, male vocal",
+      "prompt_bpm": 140,
+      "prompt_key": "C minor",
+      "essentia": {
+        "bpm": 140.1,
+        "key": "A minor"
+      },
+      "bpm_key_finder": {
+        "bpm": 140,
+        "key": "E major",
+        "camelot": "12B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-latin-trap/2.mp3",
+      "genre": "latin trap",
+      "prompt": "melodic latin trap, 136 BPM, F minor, melancholic, rainy night, sliding 808, reverb guitar loop, soft hi-hats, emotional autotuned vocal, Spanish-language vocals, male vocal",
+      "prompt_bpm": 136,
+      "prompt_key": "F minor",
+      "essentia": {
+        "bpm": 134.9,
+        "key": "B major"
+      },
+      "bpm_key_finder": {
+        "bpm": 135,
+        "key": "B major",
+        "camelot": "1B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-latin-trap/3.mp3",
+      "genre": "latin trap",
+      "prompt": "latin trap, 145 BPM, G minor, aggressive, bold, hard 808, triplet hi-hats, dark synth bells, punchy snare, Spanish-language vocals, female vocal",
+      "prompt_bpm": 145,
+      "prompt_key": "G minor",
+      "essentia": {
+        "bpm": 144.9,
+        "key": "Eb major"
+      },
+      "bpm_key_finder": {
+        "bpm": 145,
+        "key": "Ab major",
+        "camelot": "4B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-reggaeton/1.mp3",
+      "genre": "reggaeton",
+      "prompt": "reggaeton, 94 BPM, A minor, sensual, bright, dembow drums, plucked synth, deep bass, vocal chops, modern Latin pop production, Spanish-language vocals, male vocal",
+      "prompt_bpm": 94,
+      "prompt_key": "A minor",
+      "essentia": {
+        "bpm": 93.9,
+        "key": "Bb minor"
+      },
+      "bpm_key_finder": {
+        "bpm": 94,
+        "key": "Bb minor",
+        "camelot": "3A"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-reggaeton/2.mp3",
+      "genre": "perreo",
+      "prompt": "perreo, 96 BPM, F minor, dark, hypnotic, dembow drums, 808 bass, perreo percussion, bright mix, Spanish-language vocals, female vocal",
+      "prompt_bpm": 96,
+      "prompt_key": "F minor",
+      "essentia": {
+        "bpm": 96.0,
+        "key": "C major"
+      },
+      "bpm_key_finder": {
+        "bpm": 96,
+        "key": "C major",
+        "camelot": "8B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-reggaeton/3.mp3",
+      "genre": "latin pop",
+      "prompt": "latin pop, 98 BPM, G minor, sunny, playful, plucked synth, congas, deep bass, handclaps, Spanish-language vocals, male and female duet",
+      "prompt_bpm": 98,
+      "prompt_key": "G minor",
+      "essentia": {
+        "bpm": 98.0,
+        "key": "C major"
+      },
+      "bpm_key_finder": {
+        "bpm": 98,
+        "key": "C major",
+        "camelot": "8B"
+      }
+    },
+    {
+      "track": "https://hablamusic.com/examples/genres-reggaeton/4.mp3",
+      "genre": "reggaeton",
+      "prompt": "reggaeton, 90 BPM, A minor, smooth, late-night, dembow drums, soft pads, rolling bass, autotuned ad-libs, Spanish-language vocals, low male vocal",
+      "prompt_bpm": 90,
+      "prompt_key": "A minor",
+      "essentia": {
+        "bpm": 89.8,
+        "key": "E minor"
+      },
+      "bpm_key_finder": {
+        "bpm": 90,
+        "key": "A minor",
+        "camelot": "8A"
+      }
+    }
+  ]
+}

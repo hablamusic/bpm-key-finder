@@ -1,0 +1,52 @@
+{
+  "name": "bpm-key-finder",
+  "version": "0.1.0",
+  "description": "Find the BPM, musical key and Camelot code of audio files and whole DJ folders. Zero-dependency Node CLI and JS library; WAV natively, MP3/FLAC/M4A via ffmpeg.",
+  "type": "module",
+  "bin": {
+    "bpm-key-finder": "bin/bpm-key-finder.js"
+  },
+  "exports": {
+    ".": "./src/analyze.js",
+    "./keys": "./src/keys.js",
+    "./decode": "./src/decode.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "bpm",
+    "bpm-detection",
+    "key-detection",
+    "musical-key",
+    "camelot",
+    "camelot-wheel",
+    "harmonic-mixing",
+    "dj",
+    "dj-tools",
+    "tempo",
+    "music-analysis",
+    "audio-analysis",
+    "cli",
+    "zero-dependency",
+    "claude-skills",
+    "agent-skills"
+  ],
+  "license": "MIT",
+  "author": "HablaMusic <support@hablamusic.com> (https://hablamusic.com)",
+  "homepage": "https://github.com/hablamusic/bpm-key-finder#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hablamusic/bpm-key-finder.git"
+  },
+  "bugs": "https://github.com/hablamusic/bpm-key-finder/issues"
+}

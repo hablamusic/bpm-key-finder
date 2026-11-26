@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="bpm-key-finder: BPM, musical key and Camelot code for every track in your DJ folder" src="assets/banner.svg" width="1280" height="320">
-</picture>
+<a href="https://hablamusic.github.io/bpm-key-finder/"><img alt="BPM and Key Finder by HablaMusic: tempo, key and Camelot code for every song in your DJ folder, free in your browser" src="assets/social-preview.jpg" width="1280" height="640"></a>
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-fb5607?style=flat-square&labelColor=1a1d20)](LICENSE)
 [![Node 18+](https://img.shields.io/badge/node-18%2B-fb5607?style=flat-square&labelColor=1a1d20)](#quickstart)
@@ -13,6 +9,8 @@
 [![Made by HablaMusic](https://img.shields.io/badge/made_by-HablaMusic-fb5607?style=flat-square&labelColor=1a1d20)](https://hablamusic.com/dj-tools?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder)
 
 **Find the BPM, musical key and Camelot code of any song, or of a whole DJ folder, from the command line. No install, no upload, no dependencies.**
+
+<a href="https://hablamusic.github.io/bpm-key-finder/"><b>▶ Try it in your browser</b></a> · no install, no signup, nothing uploaded
 
 [Quickstart](#quickstart) · [Output](#what-you-get) · [Accuracy](#accuracy-tested-on-19-ai-generated-tracks) · [How it works](#how-it-works) · [Library](#use-it-as-a-library) · [FAQ](#faq)
 
@@ -27,6 +25,16 @@ English · [Español](README.es.md) · [Português (BR)](README.pt-BR.md)
 | **One file or a whole crate** | **Camelot out of the box** | **Nothing leaves your machine** |
 |:---|:---|:---|
 | Give it files or folders (`-r` for sub-folders). Sort by BPM or Camelot, export CSV for Rekordbox/Serato prep sheets or JSON for scripts. | Every result carries the key name, Camelot code, Open Key code and the four keys that mix cleanly (same, +1, -1, relative). | Audio is decoded locally. No account, no API, no upload, no telemetry. |
+
+## Start here: pick your way
+
+| You are… | Do this | Time |
+|---|---|---|
+| A DJ who never opened a terminal | Open the **[browser version](https://hablamusic.github.io/bpm-key-finder/)**, drop your songs, read BPM, key and Camelot. Works on phones too. | 10 seconds |
+| Fine with copy and paste | Install [Node.js LTS](https://nodejs.org/) once, open Terminal (Mac) or PowerShell (Windows), paste `npx github:hablamusic/bpm-key-finder ~/Music --sort camelot` | 2 minutes |
+| Using Claude Code, Cursor or Codex | `npx skills add hablamusic/bpm-key-finder`, then ask *"find the BPM and key of the songs in ~/Music"* | 1 minute |
+
+<p align="center"><img src="assets/demo.svg" alt="Terminal demo: bpm-key-finder analyses a folder of four reggaeton tracks and prints BPM, key, Camelot code and compatible keys for each" width="820"></p>
 
 ## Quickstart
 
@@ -145,3 +153,7 @@ WAV (8/16/24/32-bit integer, 32/64-bit float, mono or multichannel) without depe
 ## License
 
 MIT. Made by [HablaMusic](https://hablamusic.com/?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder), an AI music generator with free in-browser DJ tools in English, Spanish and Portuguese. Issues and pull requests are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Author
+
+Built by **Vlad Yasinski**, AI growth consultant ([roimobi.com](https://www.roimobi.com/?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [LinkedIn](https://www.linkedin.com/in/vlad-yasinski-ua5er/)), as part of [HablaMusic](https://hablamusic.com/?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder). More free DJ tools: [github.com/hablamusic](https://github.com/hablamusic) · [hablamusic.github.io](https://hablamusic.github.io/).

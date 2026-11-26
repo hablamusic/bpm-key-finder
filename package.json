@@ -1,6 +1,6 @@
 {
   "name": "bpm-key-finder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Find the BPM, musical key and Camelot code of audio files and whole DJ folders. Zero-dependency Node CLI and JS library; WAV natively, MP3/FLAC/M4A via ffmpeg.",
   "type": "module",
   "bin": {
@@ -43,7 +43,7 @@
   ],
   "license": "MIT",
   "author": "HablaMusic <support@hablamusic.com> (https://hablamusic.com)",
-  "homepage": "https://github.com/hablamusic/bpm-key-finder#readme",
+  "homepage": "https://hablamusic.github.io/bpm-key-finder/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hablamusic/bpm-key-finder.git"

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BPM and Key Finder: free, in your browser, open source</title>
+<meta name="description" content="Find the BPM, musical key and Camelot code of your songs for free, right in your browser. Drop a file or a whole folder; nothing is uploaded. Open-source CLI for big crates.">
+<link rel="canonical" href="https://hablamusic.github.io/bpm-key-finder/">
+<link rel="alternate" hreflang="en" href="https://hablamusic.github.io/bpm-key-finder/"><link rel="alternate" hreflang="es" href="https://hablamusic.github.io/bpm-key-finder/es/"><link rel="alternate" hreflang="pt-BR" href="https://hablamusic.github.io/bpm-key-finder/pt/"><link rel="alternate" hreflang="x-default" href="https://hablamusic.github.io/bpm-key-finder/">
+<meta name="author" content="HablaMusic">
+<meta name="theme-color" content="#1a1d20">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HablaMusic open source">
+<meta property="og:title" content="BPM and Key Finder for DJs (free, open source)">
+<meta property="og:description" content="Find the BPM, musical key and Camelot code of your songs for free, right in your browser. Drop a file or a whole folder; nothing is uploaded. Open-source CLI for big crates.">
+<meta property="og:url" content="https://hablamusic.github.io/bpm-key-finder/">
+<meta property="og:image" content="https://hablamusic.github.io/bpm-key-finder/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="BPM and Key Finder by HablaMusic: tempo, key and Camelot code for DJ tracks">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+<link rel="preload" as="image" href="hero.webp">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://hablamusic.com/#organization", "name": "HablaMusic", "url": "https://hablamusic.com", "logo": "https://hablamusic.com/icon-512.png", "sameAs": ["https://github.com/hablamusic"]}, {"@type": "Person", "@id": "https://www.roimobi.com/#person", "name": "Vlad Yasinski", "url": "https://www.roimobi.com", "sameAs": ["https://www.linkedin.com/in/vlad-yasinski-ua5er/", "https://github.com/ua5er"]}, {"@type": "WebApplication", "name": "BPM and key finder for DJs", "url": "https://hablamusic.github.io/bpm-key-finder/", "applicationCategory": "MultimediaApplication", "operatingSystem": "Any (web browser)", "inLanguage": "en", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@id": "https://hablamusic.com/#organization"}, "creator": {"@id": "https://www.roimobi.com/#person"}, "description": "Find the BPM, musical key and Camelot code of your songs for free, right in your browser. Drop a file or a whole folder; nothing is uploaded. Open-source CLI for big crates."}, {"@type": "SoftwareSourceCode", "name": "bpm-key-finder", "codeRepository": "https://github.com/hablamusic/bpm-key-finder", "programmingLanguage": "JavaScript", "license": "https://opensource.org/licenses/MIT", "runtimePlatform": "Node.js 18+, web browsers", "author": {"@id": "https://hablamusic.com/#organization"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I find the BPM and key of a song?", "acceptedAnswer": {"@type": "Answer", "text": "Drop the song on this page. It measures the tempo from the drum hits and the key from the notes, and shows BPM, key, Camelot code and compatible keys in a few seconds. For a whole folder, run npx github:hablamusic/bpm-key-finder &lt;folder&gt;."}}, {"@type": "Question", "name": "Is it free? Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "Free, no account, no upload. The analysis runs in your browser (or on your computer with the CLI). The code is MIT licensed."}}, {"@type": "Question", "name": "What is the Camelot code?", "acceptedAnswer": {"@type": "Answer", "text": "A number from 1 to 12 plus A (minor) or B (major). Songs with the same code, one number apart, or the same number with the other letter mix without clashing. See the Camelot wheel guide."}}, {"@type": "Question", "name": "How accurate is it?", "acceptedAnswer": {"@type": "Answer", "text": "On 19 test tracks the BPM matched essentia within 1 BPM 17 times. The exact key matched 9 times and was mix-compatible 15 times; key detection is hard on dense club tracks, so check the confidence column."}}, {"@type": "Question", "name": "Does it work on my phone?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Tap Choose files and pick songs from your phone; very long files take longer."}}]}]}</script>
+
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="https://hablamusic.com/?utm_source=github&utm_medium=pages&utm_campaign=bpm-key-finder"><img src="favicon.png" alt="" width="30" height="30">HablaMusic</a>
+<nav class="links" aria-label="Main"><a class="hide-m" href="https://hablamusic.github.io/camelot-wheel/">Camelot wheel</a><a class="hide-m" href="https://hablamusic.github.io/awesome-ai-dj-prompts/">AI DJ prompts</a><a href="https://github.com/hablamusic/bpm-key-finder">GitHub</a><span class="langs"><a href="" hreflang="en" aria-current=true>EN</a><a href="es/" hreflang="es">ES</a><a href="pt/" hreflang="pt-BR">PT</a></span></nav>
+</div></header>
+<main id="main">
+
+<section class="hero"><img class="bgimg" src="hero.webp" alt="" width="1600" height="700" fetchpriority="high"><div class="wrap">
+<span class="kicker"><b>●</b> free · open source · no upload</span>
+<h1>BPM and key finder for DJs</h1>
+<p class="lede">Drop your songs and get the tempo, the key and the Camelot code of each one, plus the keys it mixes with. It runs in your browser: no install, no account, your music never leaves your computer.</p>
+<div class="ctas"><a class="btn hot" href="#app">Choose songs ↓</a><a class="btn" href="#cli">For big folders: the CLI</a></div>
+</div></section>
+<section id="app"><div class="wrap">
+<div class="drop" id="drop"><strong>Drop songs or a folder here</strong><span class="muted">MP3, WAV, FLAC, M4A, OGG · any number of files</span>
+<div class="ctas" style="justify-content:center;margin-top:16px">
+<label class="btn hot"><input id="files" type="file" accept="audio/*,.mp3,.wav,.flac,.m4a,.ogg,.aiff,.aif" multiple class="sr">Choose files</label>
+<label class="btn hide-m"><input id="dir" type="file" webkitdirectory multiple class="sr">Choose a folder</label>
+<button class="btn" id="sample" type="button">▶ Try a sample song</button></div></div>
+<div id="out" hidden style="margin-top:20px"><div class="tablewrap"><table><thead><tr><th>Song</th><th>BPM</th><th>Key</th><th>Camelot</th><th>Mixes with</th><th>Confidence</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p style="margin-top:12px"><button class="btn" id="csv" type="button">⬇ Download CSV</button></p></div>
+</div></section>
+<section><div class="wrap"><h2>How to use it</h2><div class="steps"><div class="card"><h3>Drop your songs</h3><p class="muted">Drag files or a whole folder onto the box above, or tap <em>Choose files</em> on your phone.</p></div><div class="card"><h3>Read BPM, key and Camelot</h3><p class="muted">Each song gets its tempo, key (for example <code>A minor</code>), Camelot code (<code>8A</code>) and the three keys it blends with.</p></div><div class="card"><h3>Plan the mix</h3><p class="muted">Download the CSV, sort by Camelot, and mix neighbours on the <a href="https://hablamusic.github.io/camelot-wheel/">Camelot wheel</a>.</p></div></div></div></section>
+<section id="cli"><div class="wrap"><h2>Big crate? Run it on your whole library</h2><p class="sub">The same engine as a command-line tool. One command, nothing to install apart from Node.js.</p><div class="steps"><div class="card"><h3>Install Node.js once</h3><p class="muted">Get the LTS version from <a href="https://nodejs.org/">nodejs.org</a> (Windows, Mac or Linux).</p></div><div class="card"><h3>Open a terminal</h3><p class="muted">Mac: Terminal app. Windows: PowerShell. Linux: any terminal.</p></div><div class="card"><h3>Paste this and press Enter</h3><p class="muted"></p><div class="cmd"><pre><code>npx github:hablamusic/bpm-key-finder ~/Music --sort camelot</code></pre><button class="copy" type="button" data-copy="npx github:hablamusic/bpm-key-finder ~/Music --sort camelot">copy</button></div></div></div><p class="muted small" style="margin-top:14px">Replace <code>~/Music</code> with your folder (on Windows you can drag the folder into the window). Add <code>--csv &gt; crate.csv</code> for a spreadsheet. MP3 needs <a href="https://ffmpeg.org/download.html">ffmpeg</a>; WAV works without it.</p>
+<p style="margin-top:22px"><img src="demo.svg" alt="bpm-key-finder terminal demo: analysing a folder and printing BPM, key and Camelot code per track" width="900" height="420" loading="lazy" style="border-radius:12px;border:1px solid var(--line)"></p></div></section>
+<section><div class="wrap split"><div><h2>Tested on 19 AI-generated tracks</h2><p class="sub">We compared the tool with essentia 2.1 (UPF Barcelona) on 19 Lyria tracks from HablaMusic: bachata, corridos, cumbia, dembow, latin trap and reggaeton.</p><p class="muted">What it means: AI music models follow the BPM you ask for, but not the key. Analyse AI tracks before you tag them. Raw data: <a href="https://github.com/hablamusic/bpm-key-finder/blob/main/benchmark/ai-tracks.json">benchmark/ai-tracks.json</a>.</p></div>
+<div class="tablewrap"><table><tbody><tr><td>BPM within 1 of essentia</td><td><strong>17 of 19</strong></td></tr><tr><td>Same key as essentia</td><td><strong>9 of 19</strong></td></tr><tr><td>Key mix-compatible with essentia&#x27;s</td><td><strong>15 of 19</strong></td></tr><tr><td>BPM within 2 of the tempo in the prompt</td><td><strong>18 of 19</strong></td></tr><tr><td>Key equal to the key in the prompt</td><td><strong>1 of 19 (essentia: 0 of 19)</strong></td></tr></tbody></table></div></div></section>
+<section><div class="wrap"><h2>Prefer a full web app?</h2><p class="sub">The same detector runs on <a href="https://hablamusic.com/dj-tools/bpm-key-finder?utm_source=github&utm_medium=pages&utm_campaign=bpm-key-finder">HablaMusic's online BPM and key finder</a>, next to a <a href="https://hablamusic.com/dj-tools/mashup-maker?utm_source=github&utm_medium=pages&utm_campaign=bpm-key-finder">mashup maker</a> and a <a href="https://hablamusic.com/dj-tools/vocal-remover?utm_source=github&utm_medium=pages&utm_campaign=bpm-key-finder">vocal remover</a>.</p></div></section>
+<section id="faq"><div class="wrap"><h2>FAQ</h2><details><summary>How do I find the BPM and key of a song?</summary><p>Drop the song on this page. It measures the tempo from the drum hits and the key from the notes, and shows BPM, key, Camelot code and compatible keys in a few seconds. For a whole folder, run <code>npx github:hablamusic/bpm-key-finder &lt;folder&gt;</code>.</p></details><details><summary>Is it free? Do I need an account?</summary><p>Free, no account, no upload. The analysis runs in your browser (or on your computer with the CLI). The code is MIT licensed.</p></details><details><summary>What is the Camelot code?</summary><p>A number from 1 to 12 plus A (minor) or B (major). Songs with the same code, one number apart, or the same number with the other letter mix without clashing. See the <a href="https://hablamusic.com/learn/harmonic-mixing-camelot-wheel?utm_source=github&utm_medium=pages&utm_campaign=bpm-key-finder">Camelot wheel guide</a>.</p></details><details><summary>How accurate is it?</summary><p>On 19 test tracks the BPM matched essentia within 1 BPM 17 times. The exact key matched 9 times and was mix-compatible 15 times; key detection is hard on dense club tracks, so check the confidence column.</p></details><details><summary>Does it work on my phone?</summary><p>Yes. Tap <em>Choose files</em> and pick songs from your phone; very long files take longer.</p></details></div></section>
+
+</main>
+<footer><div class="wrap cols">
+<div><strong>Made by <a href="https://hablamusic.com/?utm_source=github&utm_medium=pages&utm_campaign=bpm-key-finder">HablaMusic</a></strong><br>AI music generator and free DJ tools in English, Spanish and Portuguese.<br><a href="https://hablamusic.com/dj-tools?utm_source=github&utm_medium=pages&utm_campaign=bpm-key-finder">Free DJ tools</a></div>
+<div><strong>More open-source DJ tools</strong><ul style="padding-left:18px;margin:6px 0"><li><a href="https://hablamusic.github.io/camelot-wheel/">Camelot wheel</a> · <a href="https://github.com/hablamusic/camelot-wheel">GitHub</a></li><li><a href="https://hablamusic.github.io/awesome-ai-dj-prompts/">AI DJ prompts</a> · <a href="https://github.com/hablamusic/awesome-ai-dj-prompts">GitHub</a></li></ul><a href="https://github.com/hablamusic">github.com/hablamusic</a></div>
+<div><strong>Built by</strong> <a href="https://www.roimobi.com/?utm_source=github&utm_medium=pages&utm_campaign=bpm-key-finder">Vlad Yasinski</a> · <a href="https://www.linkedin.com/in/vlad-yasinski-ua5er/">LinkedIn</a><br>License: MIT · <a href="https://github.com/hablamusic/bpm-key-finder">Source on GitHub</a><br><span class="small">Cookieless, anonymous page-view stats; no cookies, nothing stored on your device. Audio you analyse never leaves your browser.</span><br><span class="small">Updated 2026-11-26</span></div>
+</div></footer>
+<script>window.T={"copy": "Copy", "copied": "Copied"};</script>
+<script src="site.js" defer></script>
+<script>window.S={"working": "Analysing", "err": "Could not read this file in the browser", "sample": "sample.mp3"};</script><script type="module" src="app.js"></script>
+<script src="analytics.js" defer></script>
+</body>
+</html>

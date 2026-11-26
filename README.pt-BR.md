@@ -1,12 +1,14 @@
 <div align="center">
 
-<img alt="bpm-key-finder: BPM, tom e código Camelot de cada faixa da sua pasta de DJ" src="assets/banner.svg" width="1280" height="320">
+<a href="https://hablamusic.github.io/bpm-key-finder/pt/"><img alt="Detector de BPM e tom da HablaMusic: andamento, tom e código Camelot das suas músicas, grátis no navegador" src="assets/social-preview.jpg" width="1280" height="640"></a>
 
 [![Licença: MIT](https://img.shields.io/badge/licença-MIT-fb5607?style=flat-square&labelColor=1a1d20)](LICENSE)
 [![Sem dependências](https://img.shields.io/badge/dependências-0-fb5607?style=flat-square&labelColor=1a1d20)](package.json)
 [![Feito pela HablaMusic](https://img.shields.io/badge/feito_pela-HablaMusic-fb5607?style=flat-square&labelColor=1a1d20)](https://hablamusic.com/pt/dj-tools?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder)
 
 **Descubra o BPM, o tom e o código Camelot de qualquer música, ou da pasta de DJ inteira, pelo terminal. Sem instalar nada, sem upload, sem dependências.**
+
+<a href="https://hablamusic.github.io/bpm-key-finder/pt/"><b>▶ Teste no navegador</b></a> · sem instalar, sem conta, sem upload
 
 </div>
 
@@ -15,6 +17,16 @@
 # Detector de BPM e tom para DJ (CLI e JavaScript)
 
 O `bpm-key-finder` lê um arquivo de áudio (WAV direto; MP3, FLAC, M4A, OGG e AIFF com ffmpeg), mede o tempo em BPM e o tom, e mostra o tom como nome (`A minor`, Lá menor), [código Camelot](https://hablamusic.com/pt/learn/harmonic-mixing-camelot-wheel?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) (`8A`) e código Open Key (`1m`), junto com os tons que combinam. Com uma pasta, ele devolve tabela, CSV ou JSON do crate inteiro. É JavaScript puro para Node 18+ sem pacotes, e o mesmo código roda no navegador: é o motor do [detector de BPM e tom online grátis](https://hablamusic.com/pt/dj-tools/bpm-key-finder?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) da HablaMusic.
+
+## Comece aqui: escolha seu caminho
+
+| Você é… | Faça isto | Tempo |
+|---|---|---|
+| DJ e nunca abriu um terminal | Abra a **[versão no navegador](https://hablamusic.github.io/bpm-key-finder/pt/)**, solte suas músicas e veja BPM, tom e Camelot. Funciona no celular. | 10 segundos |
+| Tranquilo com copiar e colar | Instale o [Node.js LTS](https://nodejs.org/pt) uma vez, abra o Terminal (Mac) ou PowerShell (Windows) e cole `npx github:hablamusic/bpm-key-finder ~/Music --sort camelot` | 2 minutos |
+| Usa Claude Code, Cursor ou Codex | `npx skills add hablamusic/bpm-key-finder` e peça *"descubra o BPM e o tom das músicas em ~/Music"* | 1 minuto |
+
+<p align="center"><img src="assets/demo.svg" alt="Demo no terminal: bpm-key-finder analisa uma pasta com quatro reggaetons e mostra BPM, tom, código Camelot e tons compatíveis" width="820"></p>
 
 ## Começo rápido
 
@@ -63,3 +75,7 @@ Não. Tudo roda no seu computador.
 ## Licença
 
 MIT. Feito pela [HablaMusic](https://hablamusic.com/pt?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder), gerador de música com IA com ferramentas de DJ grátis no navegador.
+
+## Autor
+
+Criado por **Vlad Yasinski**, consultor de crescimento com IA ([roimobi.com](https://www.roimobi.com/?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [LinkedIn](https://www.linkedin.com/in/vlad-yasinski-ua5er/)), como parte da [HablaMusic](https://hablamusic.com/pt?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder). Mais ferramentas de DJ grátis: [github.com/hablamusic](https://github.com/hablamusic) · [hablamusic.github.io](https://hablamusic.github.io/).

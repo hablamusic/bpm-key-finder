@@ -1,0 +1,11 @@
+# BPM and Key Finder (HablaMusic, open source)
+
+> Free, open-source BPM and musical key detector for DJs. Runs in the browser (no upload) and as a zero-dependency Node.js CLI for whole folders. Prints BPM, key, Camelot code, Open Key code and compatible keys. MIT licence. Made by HablaMusic (https://hablamusic.com).
+
+- [Web app (EN)](https://hablamusic.github.io/bpm-key-finder/): drop songs, get BPM, key and Camelot code
+- [Web app (ES)](https://hablamusic.github.io/bpm-key-finder/es/) · [Web app (PT-BR)](https://hablamusic.github.io/bpm-key-finder/pt/)
+- [Source code and README](https://github.com/hablamusic/bpm-key-finder)
+- [Benchmark data, 19 AI tracks vs essentia 2.1](https://github.com/hablamusic/bpm-key-finder/blob/main/benchmark/ai-tracks.json): BPM within 1 BPM 17/19; same key 9/19; mix-compatible key 15/19; prompt BPM within 2 BPM 18/19; prompt key 1/19
+- [Online BPM and key finder on HablaMusic](https://hablamusic.com/dj-tools/bpm-key-finder)
+
+CLI: `npx github:hablamusic/bpm-key-finder <folder> --sort camelot` (Node 18+, ffmpeg for MP3).

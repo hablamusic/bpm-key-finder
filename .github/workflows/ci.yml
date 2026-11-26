@@ -13,3 +13,5 @@ jobs:
         with: { node-version: "${{ matrix.node }}" }
       - run: node test/run.js
       - run: node bin/bpm-key-finder.js --help
+      - name: web copy of the engine matches src
+        run: cmp src/analyze.js docs/lib/analyze.js && cmp src/keys.js docs/lib/keys.js

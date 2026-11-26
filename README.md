@@ -147,6 +147,7 @@ WAV (8/16/24/32-bit integer, 32/64-bit float, mono or multichannel) without depe
 
 - [camelot-wheel](https://github.com/hablamusic/camelot-wheel): key converter, compatible keys, mashup checker and set planner.
 - [awesome-ai-dj-prompts](https://github.com/hablamusic/awesome-ai-dj-prompts): prompts for AI-generated DJ intros, outros and remix beds, with BPM and key.
+- [suno-latin-producer](https://github.com/hablamusic/suno-latin-producer): Suno prompts, tags and lyrics checker for reggaeton, cumbia, funk carioca and DJ edits (Spanish and Portuguese syllable counting).
 - Online tools: [BPM and key finder](https://hablamusic.com/dj-tools/bpm-key-finder?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [mashup maker](https://hablamusic.com/dj-tools/mashup-maker?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [vocal remover](https://hablamusic.com/dj-tools/vocal-remover?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder)
 - Guides: [how to beatmatch](https://hablamusic.com/learn/how-to-beatmatch?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [how to make a mashup](https://hablamusic.com/learn/how-to-make-a-mashup?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder)
 

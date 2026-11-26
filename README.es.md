@@ -93,6 +93,7 @@ No. Todo corre en tu equipo.
 
 - [camelot-wheel](https://github.com/hablamusic/camelot-wheel): rueda Camelot, tonalidades compatibles, mashups y orden del set.
 - [awesome-ai-dj-prompts](https://github.com/hablamusic/awesome-ai-dj-prompts): prompts de IA para intros, outros y bases de remix.
+- [suno-latin-producer](https://github.com/hablamusic/suno-latin-producer): prompts para Suno, etiquetas y revisor de letras para reggaetón, cumbia, funk y DJ edits (cuenta sílabas en español y portugués).
 - Herramientas online: [detector de BPM y tonalidad](https://hablamusic.com/es/dj-tools/bpm-key-finder?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [creador de mashups](https://hablamusic.com/es/dj-tools/mashup-maker?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [quitavoces](https://hablamusic.com/es/dj-tools/vocal-remover?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder)
 - Guías: [cómo sincronizar temas](https://hablamusic.com/es/learn/how-to-beatmatch?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [cómo hacer un mashup](https://hablamusic.com/es/learn/how-to-make-a-mashup?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder)
 

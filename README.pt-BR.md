@@ -68,7 +68,7 @@ Não. Tudo roda no seu computador.
 
 ## Relacionado
 
-- [camelot-wheel](https://github.com/hablamusic/camelot-wheel) · [awesome-ai-dj-prompts](https://github.com/hablamusic/awesome-ai-dj-prompts)
+- [camelot-wheel](https://github.com/hablamusic/camelot-wheel) · [awesome-ai-dj-prompts](https://github.com/hablamusic/awesome-ai-dj-prompts) · [suno-latin-producer](https://github.com/hablamusic/suno-latin-producer): prompts para Suno e revisor de letras
 - Online: [detector de BPM e tom](https://hablamusic.com/pt/dj-tools/bpm-key-finder?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [criador de mashups](https://hablamusic.com/pt/dj-tools/mashup-maker?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [removedor de voz](https://hablamusic.com/pt/dj-tools/vocal-remover?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder)
 - Guias: [como sincronizar batidas](https://hablamusic.com/pt/learn/how-to-beatmatch?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder) · [como fazer um mashup](https://hablamusic.com/pt/learn/how-to-make-a-mashup?utm_source=github&utm_medium=readme&utm_campaign=bpm-key-finder)
 
